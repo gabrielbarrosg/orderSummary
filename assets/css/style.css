@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 750px;
+     text-align: center;
+     background-color: rgb(186, 217, 247);
+ }
+ .card {
+     width: 450px;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 40px;
+     background-color: white;
+ }
+ .imagem {
+     border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
+     width: 450px;
+ }
+ .descricao {
+     margin: auto;
+     width: 300px;
+ }
+ .subtitulo {
+     margin-top: 20px;
+    color: rgb(100, 100, 100)
+ }
+.plano-assinatura {
+    margin: auto;
+    padding-right: 15px;
+    width: 350px;
+    background-color: rgb(232, 239, 247);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plano-assinatura a {
+    color: rgb(49, 49, 250);
+}
+.info {
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.plano-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 12px;
+}
+.plano-info h3 {
+    color: rgb(100, 100, 100)
+}
+.botoes {
+    margin: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.botoes a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(49, 49, 250);
+}
+.botao-pagamento {
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(49, 49, 250);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
